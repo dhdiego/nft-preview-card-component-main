@@ -143,7 +143,10 @@ html {
 
  
   
-  .attribution { font-size: 11px; text-align: center; }
+  .attribution {
+    display: flex;
+    flex-direction: column;
+     font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
 .avatar {
@@ -168,3 +171,4 @@ h3:hover,
 span:hover{
   color: var(--CyanS);
 }
+
